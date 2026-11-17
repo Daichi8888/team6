@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c2fxut337i31t"]
+
+[ext_resource type="Script" uid="uid://dcv5rsrdry44d" path="res://myworld.gd" id="2_wq0i4"]
+[ext_resource type="Texture2D" uid="uid://cu8r7k323oo07" path="res://img/MyWorld.jpg" id="3_wq0i4"]
+[ext_resource type="PackedScene" uid="uid://6o7fxp26ru0v" path="res://world.tscn" id="res://world.tscn"]
+
+[node name="Myworld" unique_id=1137961271 instance=ExtResource("res://world.tscn")]
+script = ExtResource("2_wq0i4")
+
+[node name="Sprite2D" parent="." index="0" unique_id=1597890546]
+texture = ExtResource("3_wq0i4")
